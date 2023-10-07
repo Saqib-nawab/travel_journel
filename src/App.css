@@ -1,0 +1,39 @@
+.navbar{
+  height: 50px;
+  background-color: rgb(218, 70, 50);
+  display: flex;
+  justify-content: center;
+}
+.navbar > .img{
+  height: 23px;
+  height: 23px;
+  padding-right: 5px;
+}
+.container{
+  margin-top: 50px;
+  width: 85vw;
+  height: 33vh;
+  display: flex;
+  flex-direction: row;
+}
+.container .box3{
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.container .box1 .img{
+  height: 33vh;
+  width: 16vw;
+  border-radius: 5px;
+}
+
+.container .box2{
+  display: flex;
+  flex-direction: row;
+}
+.box2 >img{
+  height: 23px;
+  width: 23px;
+}
+.box2 >span >u{
+  margin-left: 10px;
+}
